@@ -41,7 +41,7 @@ pip install pysam pandas
 Clone the repository:
 
 bash
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/khadijaMadane/Colon_Cancer_Somatic_Variants.git
 cd your-repository
 
 
