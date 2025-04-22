@@ -16,14 +16,6 @@ To apply this project to other sequences, you just need to change the sequence n
 - *SnpEff*
 - *bcftools*
 
-### Required Python Libraries:
-- *pysam*
-- *pandas*
-
-Install the Python dependencies with:
-
-bash
-pip install pysam pandas
 
 
 ## Pipeline
@@ -55,14 +47,7 @@ bash
 
 ## Results
 
-The results will be saved in annotated and filtered VCF files, as well as in CSV files for further analysis.
-
-### Example of CSV output file:
-
-csv
-CHROM, POS, GENE, REF, ALT, DP, FILTER
-1, 1234567, TP53, A, G, 50, PASS
-2, 2345678, KRAS, C, T, 35, PASS
+The results will be saved in annotated and filtered VCF files.
 
 
 ## Conclusion
@@ -71,8 +56,9 @@ This pipeline allows for the analysis of sequencing data, the identification and
 
 ## Authors
 
-- *Your Name*: Lead Developer
-- *Collaborator 1*: Contributor
+- *Khadija Ben Madane
+- *Jamaa Sahraoui
+- *Basma Rl Barki
 
 ## License
 
